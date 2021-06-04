@@ -62,3 +62,15 @@ body {
 .news-scroll a:hover{
 	opacity: 0.7;
 }
+#mob-view{
+	display: none;
+}
+
+@media(max-width: 800px){
+	#versao-desk{
+		display: none;
+	}
+	#mob-view{
+		display: block;
+	}
+}
