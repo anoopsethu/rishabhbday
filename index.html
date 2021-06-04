@@ -140,6 +140,8 @@
 
 
         <script type="text/javascript">
+
+          var bg_music = false;
           
           $('#chimbal1').click(function() {
             const audio = new Audio("assets/sound/1.m4a");
@@ -243,6 +245,14 @@
             setTimeout(function(){ 
               audio.pause();
             }, 2000);
+          });
+
+          $(".element").click(function(){
+            if(!bg_music){
+              const audio = new Audio("assets/sound/bg.m4a");
+              audio.play();
+            }
+            bg_music = true;
           });
 
 
