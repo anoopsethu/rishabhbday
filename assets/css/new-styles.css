@@ -38,6 +38,16 @@ body {
 	height: calc(100vh - 203px);
     overflow: auto;
 	padding-right: 20px;
+	position: relative;
+}
+.news-scroll-overlay{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	height: 130px;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0F0F0F 100%);
+	content: '';
 }
 .sponsors{
     height: 90px;
