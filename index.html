@@ -251,6 +251,7 @@
             if(!bg_music){
               const audio = new Audio("assets/sound/bg.m4a");
               audio.play();
+              audio.loop = true;
             }
             bg_music = true;
           });
