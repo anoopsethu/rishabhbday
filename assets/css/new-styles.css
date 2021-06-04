@@ -5,6 +5,7 @@ body {
 	background-size: cover;
 	min-height: 100vh;
     padding-bottom: 100px;
+    overflow-x: hidden;
 }
 .band-logo{
 	max-height: 120px;
@@ -34,11 +35,12 @@ body {
 }
 .news-scroll{
 	margin-top: 25px;
-    height: calc(100vh - 260px);
+	height: calc(100vh - 203px);
     overflow: auto;
 	padding-right: 20px;
 }
 .sponsors{
-	max-height: 90px;
-	margin-top: 40px;
+    height: 90px;
+    margin-top: 90px;
+    margin-bottom: 0px;
 }
