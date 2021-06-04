@@ -22,7 +22,7 @@ body {
 	background-repeat: repeat-x;
 }
 .container{
-	max-width: 75%;
+	max-width: 85%;
 }
 .news-header{
 	height: 16px;
@@ -39,6 +39,6 @@ body {
 	padding-right: 20px;
 }
 .sponsors{
-	max-height: 80px;
+	max-height: 90px;
 	margin-top: 40px;
 }
