@@ -13,7 +13,7 @@
         <section id="versao-desk" class="d-none d-sm-none d-md-block">
 
         <div class="chillies"></div>
-          
+
            <div class="container">
 
                 <div class="row">
@@ -186,6 +186,16 @@
               audio.pause();
             }, 2000);
           });
+
+
+          $(document).on('click','body *',function(){
+            document.body.style.cursor = "url('assets/img/hammer-hit.png'), auto";
+            setTimeout(()=>{
+             document.body.style.cursor = "url('assets/img/hammer.png'), auto";
+            }, 100);
+             console.log("Hey there!");
+          });
+
 
 
         </script>
