@@ -35,7 +35,7 @@ body {
 }
 .news-scroll{
 	margin-top: 25px;
-	height: calc(100vh - 203px);
+height: calc(100vh - 203px);
     overflow: auto;
 	padding-right: 20px;
 }
